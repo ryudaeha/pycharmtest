@@ -3,7 +3,7 @@ from customer import Customer, Rental, Movie
 
 class Tests(TestCase):
     def test_sample(self):
-        customer = Customer("Bob")
+        customer = Customer("Bodb")
         customer.add_rental(Rental(Movie("Jaws", Movie.REGULAR), 2))
         customer.add_rental(Rental(Movie("Golden Eye", Movie.REGULAR), 3))
         customer.add_rental(Rental(Movie("Short New", Movie.NEW_RELEASE), 1))
